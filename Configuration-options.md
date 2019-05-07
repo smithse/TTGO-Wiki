@@ -25,3 +25,24 @@ Starting frequency in MHz, usually 400 MHz
 
 ## Bandwidth (kHz) (``channelbw``)
 Configuration value for RXBW during spectrum recording (needs additional testing, probably we should (also) set AGCBW?)
+
+## Spectrum MHz marker (``marker``)
+Displey MHz values (start, end) in display in spectrum mode
+
+## Spectrum noisefloor (``noisefloor``)
+RSSI value at bottom edge of display
+
+# AXUDP parameters
+## Host, Port
+IP address and port number
+
+## rate limit
+has no effect
+
+# APRS TCP parameters
+## No functionality implemented yet, so no point editing these parameters
+
+# Receiver parameters (``rs41.*``, ``dfm.*``)
+## AGC bandwidth (``.agcbw``)
+## RX bandwidth (``.rxbw``)
+
