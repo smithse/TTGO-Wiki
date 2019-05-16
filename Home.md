@@ -7,6 +7,9 @@ This software turns simple ESP32 boards with SX127x-LoRa-Chip and OLED display i
 Boards that have been tested
 - TTGO LoRa32 v1.0 (less sensitive than v2 boards)
 - TTGO LoRa32 v2.1
+The software should automatically configure the OLED ports for those two boards.
+
+- It has also been reported to work correctly with the TTGO T-BEAM board, but auto-configuration does not yet work. You have to manually configure button_pin=39, oled_sda=21, oled_scl=22
 - possibly some other? let me know if you sucessfully use this software on another board, and I will add it here
 
 ## Installation
