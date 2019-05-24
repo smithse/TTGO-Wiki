@@ -14,6 +14,7 @@ The software should automatically configure the OLED ports for those two boards.
 
 ## Installation
 
-You can find installation instructions for binary images at http://rdzsonde.my.to
+You can find installation instructions for binary images at http://rdzsonde.mooo.com
+(Sorry for the URL change... the old domain my.to has expired. You'll have to flash the next version directly, OTA upgrade will not work due to the URL change)
 
 Alternatively, the Setup.mp in the main repository explains how to set up the Arduino IDE for compiling and uploading this code to the LoRa32 boards.
