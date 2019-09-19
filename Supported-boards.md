@@ -42,9 +42,9 @@ Advantages:
 - Integrated battery holder (for 16850 battery)
 
 Advantages/Disadvantage:
-- No on-board display. You can easily add an display (a 0.96" display fits nicely. If you get the right version, the order of pins on display and T-BEAM match, so it is really easy to connect - for some 0.96" display versions you need to re-order the pins). One advantage might be that you can optionally add a larger display. 
+- No on-board display. You can easily add an display (a 0.96" display fits nicely. If you get the right version, the order of pins on display and T-BEAM match, so it is really easy to connect - for some 0.96" display versions you need to re-order the pins). One advantage might be that you can optionally add a larger display (e.g., an 1.3" display with SSD1306 controller works fine)
 
-Note: currently my software does not support any other displays. I have a 2.0" display with ILI9225 controller at home, and  maybe I will try adding support for that board some time in the future.
+Note: currently my software does not support displays with other controller chips. I have a 2.0" display with ILI9225 controller at home, and  maybe I will try adding support for that board some time in the future.
 
 Disadvantages:
 - Larger than the other boards, adding a tiny flat LiPo to a v1.0 or v2.1 yields a more compact device
