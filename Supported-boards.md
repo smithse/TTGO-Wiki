@@ -33,7 +33,7 @@ The 868/915 MHz version will not work!
 (Detailed version: The 868/915 MHz version contains the SX1276 receiver chip. The chip supports both 433 MHZ and 868/915 MHz, but using different input pins. The board connects the antenna to the 868/915 MHZ input pin, the 433 MHz pin is unconnected. Theoretically the 868/915 MHZ version can be modified to work as 403 MHz receiver by directly connecting the antenna to the right pin of the chip, but this requires somewhat advanced SMD soldering skills...)
 
 
-## TTGO T-BEAM
+## TTGO T-BEAM (old version, TP5400 charger IC)
 
 It is supported and **might** be a nice board.
 
@@ -53,3 +53,9 @@ Disadvantages:
   * Battery charger chip causes HUGE RF interference in particular in battery-only operation. (https://vimeo.com/341131491)
 
 You can eliminate the quality problem by disabling the battery charger chip and directly connecting a battery to the 5V power supply. You cannot (should not in order to avaid hazards) charge the battery via USB after this modification.
+
+## TTGO T-BEAM (new version, charger IC AXP192)
+
+There is an updated revision of the board, LiliyGo claims that this update removes the power/noise problems mentioned above.  The charging circuit was completely replaced, so this is likely to be true. 
+
+NOT YET TESTED, please send me your experience reports if you have such a board.
