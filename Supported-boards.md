@@ -25,7 +25,7 @@ Advantages:
 - SMA antenna connector (easier to connect external antenna)
 
 Disadvantages:
-- no second button (but pins of the board can be configured as "touch pins", so just solder a small piece of wire and use it as button by touching it
+- no second button (but pins of the board can be configured as "touch pins", so just solder a small piece of wire and use it as button by touching it)
 
 Important note (valid also for other devices, but very often this board is sold as 868 MHz version): **You need the 433 MHz version** (the 433 MHz receiver is used as 403 MHz receiver).
 The 868/915 MHz version will not work!
@@ -35,7 +35,7 @@ The 868/915 MHz version will not work!
 
 ## TTGO T-BEAM (old version, TP5400 charger IC)
 
-It is supported and **might** be a nice board.
+It is supported and can be a nice board after hardware modifications.
 
 Advantages:
 - On-board GPS. Allows you automatically display distance/direction to sonde
@@ -44,7 +44,7 @@ Advantages:
 Advantages/Disadvantage:
 - No on-board display. You can easily add an display (a 0.96" display fits nicely. If you get the right version, the order of pins on display and T-BEAM match, so it is really easy to connect - for some 0.96" display versions you need to re-order the pins). One advantage might be that you can optionally add a larger display (e.g., an 1.3" display with SSD1306 controller works fine)
 
-Note: currently my software does not support displays with other controller chips. I have a 2.0" display with ILI9225 controller at home, and  maybe I will try adding support for that board some time in the future.
+Note: currently my software does not support displays with other controller chips. I have a 2.0" display with ILI9225 controller at home, and maybe I will try adding support for that board some time in the future.
 
 Disadvantages:
 - Larger than the other boards, adding a tiny flat LiPo to a v1.0 or v2.1 yields a more compact device
@@ -58,4 +58,4 @@ You can eliminate the quality problem by disabling the battery charger chip and 
 
 There is an updated revision of the board, LiliyGo claims that this update removes the power/noise problems mentioned above.  The charging circuit was completely replaced, so this is likely to be true. 
 
-NOT YET TESTED, please send me your experience reports if you have such a board.
+This board is supported in the most recent software versions. Sensitivity is great, similar to TTGO LORA v2.1_1.6. If you want a GPS receiver (for showing distance to radiosonde) and maybe connect a larger display, this board is a great option.
