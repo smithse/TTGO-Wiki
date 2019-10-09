@@ -25,6 +25,9 @@ Disadvantage(?):
 - Larger than other boards, adding a tiny flat LiPo to a v2.1 yields a more compact device
 
 Note that some pins are used differently than on the older T-Beam v0.7. Instructions how to connect additional things you find on the internet for the v0.7 might not be correct for the v1.0.
+- You can connect a I2C OLED display to pin 21/22 (SDA/SCL) the same way as you can with the old T-Beam 0.7
+- You cannot swap SDA/SCL in software, because SDA/SCL is also used to communicate with the power management chip
+- For the same reason, you should not connect a SPI display to pin 21/22 (you sometimes find such suggestion for T-Beam 0.7)
 
 # The code has been tested with the following boards:
 
