@@ -6,7 +6,7 @@ This software turns simple ESP32 boards with SX127x-LoRa-Chip and some display i
 
 Available documentation:
 - [[Supported boards]]
-- Installation of binary images
+- [[Installation of binary images]]
 - Installation of development environment (Arduino IDE)
 - Basic configuration
 
