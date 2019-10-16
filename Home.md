@@ -5,8 +5,9 @@
 This software turns simple ESP32 boards with SX127x-LoRa-Chip and some display into a portable receiver for radiosondes.
 
 Available documentation:
-- [[Supported boards]] _Check what boards you can use_
-- [[Binary installation]]
-- Installation of development environment (Arduino IDE)
-- Basic configuration
+- [[Supported boards]]. _Check what boards you can use._
+- [[Binary installation]]. _Just download pre-compiled binaries to your board._
+- [[IDE installation]]. _Setup the Arduino IDE to compile and run the source code on your own._
+- [[Basic configuration]]. _How to configure the rdzTTGOsonde software on your board._
+- [[Advanced display configuration]]. _How to change the layout of the OLED/TFT display of your board._
 
