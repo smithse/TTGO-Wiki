@@ -29,7 +29,7 @@ Note that some pins are used differently than on the older T-Beam v0.7. Instruct
 - You cannot swap SDA/SCL in software, because SDA/SCL is also used to communicate with the power management chip
 - For the same reason, you should not connect a SPI display to pin 21/22 (you sometimes find such suggestion for T-Beam 0.7)
 
-# The code has been tested with the following boards:
+# The code has also been tested with the following boards:
 
 ## TTGO LoRa v1.0
 
@@ -40,11 +40,15 @@ The board has a second button (in addition to reset button) that can be used to 
 
 The board has a tiny I-PEX connector on board for the antenna (so you need an adapter cable for connecting an antenna with a more common SMA connector)
 
-## HELTEC TTGO LoRa
+## HELTEC TTGO LoRa v1
 
 In terms of board layout (pin connections) from a software point of view very similar to TTGO LoRa v1.0.
 
 No information on reception sensitivity compared to other boards.
+
+## HELTEC TTGO LoRa v2
+
+This board is very similar to the v1.0 board. Heltec states that RF impedance matching has been improved, so maybe better RF performance than the v1 board. Sensitivity not verified.
 
 ## TTGO T-BEAM (old version v0.7, TP5400 charger IC)
 
