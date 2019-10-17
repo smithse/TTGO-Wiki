@@ -1,9 +1,10 @@
-# Generic options
+# Software configuration
+(In the "**Config**" tab of the web interface)
 
 ## Wifi mode (0/1/2/3) (``wifi``)
 - 0: Wifi disabled
-- 1: Wifi station mode. Connects to AP in background (connection ok: IP address shown in display). Connection is made to network in network.txt with best RSSI value. Automatically re-connnects in case of connection failure.
-- 2: Wifi AP mode. Creates an access point (AP symbol + IP address 192.168.4.1. shown in display). Clients get an IP via DHCP
+- 1: Wifi station mode. Connects to AP in background and dynamically obtains an IP address (connection ok: IP address shown in display). Connection is made to a network configured in the WiFi tab/network.txt with best RSSI value. Automatically re-connnects in case of connection failure.
+- 2: Wifi AP mode. Creates an access point (AP symbol + IP address 192.168.4.1. shown in display). Clients (PC or phone) gets an IP via DHCP
 - 3: Wifi debug mode. On startup, shows result of network scan on Display and lots of debug information on serial console. tries connecting to the first available network in network.txt. Does not reconnect in case an established connection later fails. If not network in network.txt is available at startup time, board starts in AP mode. 
 
 ## Debug mode (0/1) (``debug``)
@@ -32,17 +33,4 @@ Displey MHz values (start, end) in display in spectrum mode
 ## Spectrum noisefloor (``noisefloor``)
 RSSI value at bottom edge of display
 
-# AXUDP parameters
-## Host, Port
-IP address and port number
-
-## rate limit
-has no effect
-
-# APRS TCP parameters
-## No functionality implemented yet, so no point editing these parameters
-
-# Receiver parameters (``rs41.*``, ``dfm.*``)
-## AGC bandwidth (``.agcbw``)
-## RX bandwidth (``.rxbw``)
 
