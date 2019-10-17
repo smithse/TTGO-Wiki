@@ -1,4 +1,4 @@
-# Overview
+# rdzTTGOsonde overview
 
 This software turns simple ESP32 boards with SX127x-LoRa-Chip and some display into a portable receiver for radiosondes.
 
