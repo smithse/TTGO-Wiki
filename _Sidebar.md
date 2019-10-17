@@ -9,3 +9,5 @@
   * [[Software configuration]]
   * [[Receiver configuration]]
   * [[Data feed configuration]]
+* [[Other features]]
+* [[Advanced display configuration]]
