@@ -1,4 +1,6 @@
-# Prerequisites
+The following steps allow you to setup the Arduino IDE such that you can compile, modify and upload the code yourself.
+
+# Preparation
 
 ## Arduini IDE
 
@@ -11,7 +13,6 @@ File -> Preferences  (or Arduino -> Preferences on MacOS)
 go to "Additional Board Manager URLs"
 
 Add *https://dl.espressif.com/dl/package_esp32_index.json* and press oK
-
 
 Tool -> Boad -> Boards Manager
 
@@ -27,6 +28,8 @@ https://github.com/me-no-dev/arduino-esp32fs-plugin/releases/
 Unzip the content to the tools folder of your Arduino IDE (~/Documents/Arduino/tools on MacOS,
 similar on other OS) and restart IDE
 
+# Install all required components
+
 ## Additional libraries
 
 Select Tools -> Library Manager
@@ -34,7 +37,8 @@ Select Tools -> Library Manager
 Install "U8g2"
 
 Install "MicroNMEA"
-Install "TFT_22_ILI9225"
+
+(Install "TFT_22_ILI9225" -- currently not needed)
 
 ## Additional libraries, part 2
 
@@ -61,10 +65,10 @@ Restart the Arduino IDE
 (symbolic links are the preferred way, otherwise you have to copy the the libraries again after
 each update)
 
-## Final steps
+# Final steps
 
 In the IDE Tools -> Board: ->
-Select "TTGO LoRa32-OLED v1"
+Select "TTGO LoRa32-OLED v1" (or T-Beam, or something that fits your needs)
 
 Compile and Upload code
 
