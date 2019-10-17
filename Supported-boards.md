@@ -6,7 +6,7 @@
 
 Advantages:
 - Small board with on-board 0.96" OLED display 
-- Great RF sensitivity (better then LORA v1.0 boards) - a BIG difference!
+- Great RF sensitivity (better then LORA v1.0 boards) - a BIG difference!
 - SMA antenna connector (easier to connect external antenna)
 
 Disadvantages:
