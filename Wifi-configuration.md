@@ -1,4 +1,3 @@
-## WiFI configuration
 
 On the configuration page, select the "WiFi" tab.
 
