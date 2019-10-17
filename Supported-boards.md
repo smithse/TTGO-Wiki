@@ -29,7 +29,9 @@ Note that some pins are used differently than on the older T-Beam v0.7. Instruct
 - You cannot swap SDA/SCL in software, because SDA/SCL is also used to communicate with the power management chip
 - For the same reason, you should not connect a SPI display to pin 21/22 (you sometimes find such suggestion for T-Beam 0.7)
 
-# The code has also been tested with the following boards:
+# Additional boards
+
+The code has also been tested with the following boards:
 
 ## TTGO LoRa v1.0
 
@@ -70,7 +72,8 @@ You can eliminate the quality problem by disabling the battery charger chip and 
 
 
 
-# Final notes on version
+# Final notes on different versions
+
 In many online shops you can choose the frequency version as "color"
 
 The 868/915 MHz version contains the SX1276 receiver chip. The chip supports both 433 MHZ and 868/915 MHz, but using different input pins. The board connects the antenna to the 868/915 MHZ input pin, the 433 MHz pin is unconnected. Theoretically the 868/915 MHZ version can be modified to work as 403 MHz receiver by directly connecting the antenna to the right pin of the chip, but this requires somewhat advanced SMD soldering skills...
