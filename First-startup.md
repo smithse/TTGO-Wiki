@@ -1,6 +1,4 @@
-# Basic configuration
-
-## First startup
+## First startup (autoconfiguration)
 
 The software will try to automatically detect the board type you are using (based on the state of some input pints on boot time). If you use a different board, additional things connected to your board, or a different wiring of external display, this might not work (it should work in the default configuration of all devices mentioned in [[Supported boards]]).
 
@@ -24,21 +22,12 @@ The software will try to automatically detect the board type you are using (base
 
 ## First configuration
 
-After power up, the device will create a WiFi access point with SSID RDZsonde and Password RDZsonde.
+After power up, the device will create a WiFi access point with SSID **RDZsonde** and password **RDZsonde**.
 Connect your PC or phone to this access point.
-You can also configure rdzTTGOsonde to connect to an existing WiFi network (see below).
+You can also configure rdzTTGOsonde to connect to an existing WiFi network (see [[Wifi configuration]]).
 
 In access point mode, you can then access the software using [http://192.168.4.1](http://192.168.4.1); if you configure rdzTTGOsonde to connect to an existing WiFi network, it will get an IP address from that network via DHCP.  In all cases, you can also access the board (if your browser supports mDNS) using the URL [http://rdzsonde.local](http://rdzsonde.local).
 
-## WiFI configuration
-
-On the configuration page, select the "WiFi" tab.
-
-The first entry on this page is the SSID and Password of the access point (default RDZsonde/RDZsonde).
-
-If you want to connect rdzTTGOsonde to an existing WiFi network, you can add the SSID and Password of additional WiFi networks here (only simple authentication as used by most home routers is supported, no enterprise authentication or captive portals). If you enter multiple networks, rdzTTGOsonde will connect to the first detected network (in WiFi debug mode) or to the network with best RSSI (in WiFi background mode).
-
-After changing WiFi configuration, you have to reboot the device. The IP address obtained by DHCP will be shown on the screen. Use this IP address (instead of 192.168.4.1), if your rdzTTGOsonde is connected to an existing WiFi network.
 
 ## System configuration (hardware)
 
