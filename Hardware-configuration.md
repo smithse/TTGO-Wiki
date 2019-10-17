@@ -1,6 +1,4 @@
 
-## System configuration (hardware)
-
 On the web interface, select the **Config** tab. If autoconfiguration does not select the right I/O pins automatically, you can adjust some hardware settings here (at the bottom of the page; changing these settings require restarting the board after saving the configuration):
 
 * Display: 
