@@ -1,8 +1,11 @@
-## First steps ## 
+Overview:
+
+First steps:
 * [[First startup]] _What happens if you start a newly flashed board: autoconfiguration_
 * [[WiFi configuration]] _Connect your rdzTTGOsonde to a WiFi network_
 
-## Detailed configuration ##
+Detailed configuration:
+
 Coonnect to the web interface of your rdzTTGOsonde ([http://192.168.4.1](http://192.168.4.1) in access point mode, dynamic IP address as shown on display in WiFi client mode, or [http://rdzsonde.local](http://rdzsonde.local) if your browser supports mDNS). In the **Config** tab, you can configure the following items:
 * [[Hardware configuration]] _How to adjust configuration to specifics of your hardware_
 * [[Software configuration]] _How to adjust basic interface behaviour to your personal preferences_
