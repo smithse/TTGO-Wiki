@@ -16,10 +16,10 @@ Number of entries in the "QRG" tab. Must be less than 100. Must be larger than 0
 
 # Spectrum display parameters
 
-## ShowSpectrum (s) (``spectrum``) and Spectrum Timer (``timer``)
-If set to a value spectrum > 0, the spectrum mode is started after reboot (otherwise, the scan mode).
-If timer=1, the spectrum display will be active only for ``spectrum`` seconds and then automatically switch to scan mode
-(exact behaviour might change in future)
+## ShowSpectrum (s) (``spectrum``)
+If set to a value spectrum >= 0, the spectrum mode is started after reboot (otherwise, the scan mode).
+If spectrum > 0, the spectrum display will be active only for ``spectrum`` seconds and then automatically switch to scan mode
+Set to -1 to disable spectrum display
 
 ## Startfreq (MHz) (``startfreq``)
 Starting frequency in MHz, usually 400 MHz
