@@ -8,5 +8,7 @@ On the web interface, select the **Config** tab. If autoconfiguration does not s
 * Buttons:
   * Up to two buttons are supported, you have to enter the GPIO number of the pins. If your supported board comes with an physical button, this button is automatically configured. You can add additional buttons, either "real" buttons, or use the touch button mode of ESP32 (in which you just connect a piece of wire to a pin and then just touch that pin). 
   * In touch mode, you might have to change the threshold value. Calibration currently is simply by trial and error.
+* Power control pin:
+  * Configured GPIO pin will be configured as output and driven LOW (add 128 to pin number for HIGH). Useful for Heltec v2 boards that use GPIO21 to switch the display's VCC on.
 * GPS:
   * If you have a GPS receiver on your board (on-board for a T-Beam, or external), rdzTTGOsonde can calculate distance and bearing from your current position to the received sonde. You have to configure which RXD pin the GPS is connected to.
