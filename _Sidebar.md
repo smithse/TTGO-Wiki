@@ -11,3 +11,4 @@
   * [[Data feed configuration]]
 * [[Other features]]
 * [[Advanced display configuration]]
+* [[NFAQ (Not Frequently Asked Questions)]]
