@@ -14,7 +14,7 @@ The software will try to automatically detect the board type you are using (base
   * (a) 0.9"/1.3" OLED display connected to SDA=21, SCL=22 (RST=16) (if GPIO21==1)
   * (b) SPI TFT display connected to SDA=4, CLK=21, RST=22, RS=2, CS=0 (if GPIO21==0)
 * TTGO T-Beam v1.0: (otherwise)
-  * Button1 on GPIO38, Button2 disabled (will change in future)
+  * Button1 on GPIO38, Button2 as touch input on GPIO15 (disabled in older version)
   * GPS RXD on GPIO34
   * Power management controller on SDA=21, SCL=22
   * (a) 0.9"/1.3" OLED display connected to SDA=21, SCL=22 (RST=16) (by I2C bus probe)
