@@ -10,7 +10,7 @@ The software will try to automatically detect the board type you are using (base
   * Button1 as touch input on GPIO2, Button2 as touch input on GPIO14
 * TTGO T-Beam v0.7: (detected by GPIO12==1 on startup)
   * Button1 on GPIO39, Button2 as touch input on GPIO13
-  * GPS RXD on GPIO34
+  * GPS RXD on GPIO12
   * (a) 0.9"/1.3" OLED display connected to SDA=21, SCL=22 (RST=16) (if GPIO21==1)
   * (b) SPI TFT display connected to SDA=4, CLK=21, RST=22, RS=2, CS=0 (if GPIO21==0)
 * TTGO T-Beam v1.0: (otherwise)
