@@ -2,7 +2,7 @@
 
 rdzTTGOsonde can send data to external devices. Currently supported are AXUDP packets sent to aprsmap on a PC, and KISS over TCP/IP for APRSdroid.
 
-_(note: data is currently incomplete and unfiltered. It does not set source call signs, and no time stamp. For DFM sonde (which transmits latitude and longitude in different frames), it may temporarily send incomplete (and thus wrong) data. Please do not feed such data to public servers such as aprs.fi or radiosondy.info. Its just fine for your own map on phone or PC)_
+_(note: data is currently incomplete and unfiltered. For DFM sonde (which transmits latitude and longitude in different frames), it may temporarily send incomplete (and thus wrong) data, and the time stamp is only updated if a DFM frame contains one (not all frames do). Please do not feed such data to public servers such as aprs.fi or radiosondy.info. Its just fine for your own map on phone or PC)_
 
 ## KISS TCP parameters (APRSdroid)
 * Set "KISS TNC" to 1 to enable the KISS service on TCP port 14590
