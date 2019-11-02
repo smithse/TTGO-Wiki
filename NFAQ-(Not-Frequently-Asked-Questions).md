@@ -14,7 +14,7 @@ grep spiffs parttable.csv
 spiffs,data,spiffs,0x290000,1472K,
 ```
 
-Second, you can extract the SPI flash file system (if your starting address is different to 0x290000, replace 0x290000 with the address you obtained above, and 0x170000 with the size until the end of the flash (0x400000-start address, or use obove size 1472k=1472*1024byte=1507328=0x170000). For start at 0x291000, the size is 0x16F000.
+Second, you can extract the SPI flash file system (if your starting address is different to 0x290000, replace 0x290000 with the address you obtained above, and 0x170000 with the size until the end of the flash (0x400000-start address, or use above size 1472k=1472*1024byte=1507328=0x170000). For start at 0x291000, the size is 0x16F000.
 ```
 python esptool.py -p /dev/tty.SLAB_USBtoUART -b 460800 read_flash 0x290000 0x170000 flash.bin
 mkspiffs -b 4096 -p 256 -s 1507328 -u out flash.bin
