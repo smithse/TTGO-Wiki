@@ -1,6 +1,6 @@
 # rdzTTGOsonde overview
 
-This software turns simple ESP32 boards with SX127x-LoRa-Chip and some display into a portable receiver for radiosondes.
+This software turns simple ESP32 boards with SX127x-LoRa-Chip and some display into a portable receiver for radiosondes (RS41, RS92, DFM06, DFM09, M10).
 
 Available documentation:
 - [[Supported boards]]. _Check what boards you can use._
