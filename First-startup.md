@@ -5,9 +5,11 @@ The software will try to automatically detect the board type you are using (base
 * TTGO Lora32 v1 / Heltec v1 / Heltec v2: (detected by GPIO16==0 on startup)
   * 0.9" OLED display connected to SDA=4, SCL=15 (RST=16)
   * Button1 on GPIO0, Button2 as touch input on GPIO13
+  * LED on GPIO2 (maybe its GPIO25 for the Heltec boards?)
 * TTGO Lora32 v2.1: (detected by GPIO17==1 on startup)
   * 0.9" OLED display connected to SDA=21, SCL=22 (RST=16)
   * Button1 as touch input on GPIO2, Button2 as touch input on GPIO14
+  * LED on GPIO25
 * TTGO T-Beam v0.7: (detected by GPIO12==1 on startup)
   * Button1 on GPIO39, Button2 as touch input on GPIO13
   * GPS RXD on GPIO12
