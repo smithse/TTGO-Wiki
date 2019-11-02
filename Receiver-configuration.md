@@ -2,8 +2,9 @@
 
 ## Calibration
 
-In der Config kann "Show AFC value (showafc)" auf 1 gesetzt werden, dann wird beim Empfang einer Sonde der vom RX-Chip ermittelte Frequenzoffset angezeigt.
-Wenn hier bei mehreren Sonden immer ein ähnlicher Fehler steht, ist wohl die lokale Oszillatorfrequenz des Empfängers falsch. Hier kann man in der Config "RX frequency offset (freqofs)" einen Korrekturwert (in Hz) eintragen. (vermutlich wäre ein ppm-Wert theoretisch sinnvoller, aber fürs erste fand ich einen festen Offset intuitiver zum eintragen, und der Unterschied sollte zu vernachlässigen sein ;-))
+In the Config tab, you can set "Show AFC value (showafc)" to 1. During reception of a RS41 or DFM sonde, the RX chip will automatically determine the frequency error, which will be shown on the display.
+
+If your display shows a significant display error (in particular if you see a similar error for multiple sondes), the local oscillator frequency is wrong.  In this case you can enter in the config tab under "RX frequency offset (freqofs)" a correction value (in Hz).  For example, if your reception display shows "-2.5k", you should enter "-2500" as frequency offset.
 
 ## Bandwidth
 
