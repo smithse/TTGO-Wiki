@@ -4,7 +4,7 @@
 * [[Installation mit Arduino‐IDE]]
 * [[Konfiguration]]
   * [[Erster Start]]
-  * [[WiFi‐Konfiguration]]
+  * [[WLAN‐Konfiguration]]
   * [[Hardware‐Konfiguration]]
   * [[Software‐Konfiguration]]
   * [[Empfänger‐Konfiguration]]

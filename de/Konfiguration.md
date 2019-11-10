@@ -2,7 +2,7 @@
 
 Erste Schritte:
 * [[Erster Start]] - _Was beim Einschalten des neu programmierten Boards passiert: Autokonfiguration_
-* [[WiFi‐Konfiguration]] - _rdzTTGOsonde mit einem WLAN-Netz verbinden_
+* [[WLAN‐Konfiguration]] - _rdzTTGOsonde mit einem WLAN-Netz verbinden_
 
 Detaillierte Konfiguration:
 
