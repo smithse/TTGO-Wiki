@@ -1,4 +1,4 @@
-**Wichtiger Hinweis (für alle Boards): _Du brauchst die 433 MHz-Version_ (der 433 MHz Empfänger wird als 403 MHz Empfänger verwendet). Die 868/915 MHz Version funktioniert nicht**
+**Wichtiger Hinweis (für alle Boards): _Du brauchst die 433 MHz-Version_ (der 433 MHz-Empfänger wird als 403 MHz-Empfänger verwendet). Die 868/915 MHz-Version funktioniert nicht**
 
 # Empfohlene Boards
 
