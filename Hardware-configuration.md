@@ -7,8 +7,8 @@ On the web interface, select the **Config** tab. If autoconfiguration does not s
   * Configure TFT SDA, TFT CLK, TFT RST, TFT CS and TFT RS for SPI-based ILI9225 TFT display
 * Buttons:
   * Up to two buttons are supported, you have to enter the GPIO number of the pins. If your supported board comes with an physical button, this button is automatically configured. You can add additional buttons, either "real" buttons, or use the touch button mode of ESP32 (in which you just connect a piece of wire to a pin and then just touch that pin).
-  * For real buttons, you need to connect the button between pin and GND. The internal pull-up resistors of the ESP32 is activated where supported by hardware (i.e., for GPIO<33). For other input pins, you need to manually connect a pull-up resistor between pin and 3V3.
-  * In touch mode, you might have to change the threshold value. If you set threshold to 0 and reboot your board, a calibration display is shown. Set the treshold to about 10-15 below the values shown on the calibration display without touching the input pins (lower value=less sensitive; higher value=more sensitive)
+  * For real buttons, you need to connect the button between pin and GND. The internal pull-up resistor of the ESP32 is activated where supported by hardware (i.e., for GPIO<33). For other input pins, you need to manually connect a pull-up resistor between pin and 3V3.
+  * In touch mode, you might have to change the threshold value. If you set threshold to 0 and reboot your board, a calibration display is shown. Set the threshold to about 10-15 below the values shown on the calibration display without touching the input pins (lower value=less sensitive; higher value=more sensitive)
 * Power control pin:
   * Configured GPIO pin will be configured as output and driven LOW (add 128 to pin number for HIGH). Useful for Heltec v2 boards that use GPIO21 to switch the display's VCC on.
 * GPS:
