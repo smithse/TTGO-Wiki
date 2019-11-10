@@ -1,4 +1,4 @@
-Mit den folgenden Schritten mann man die Arduino IDE so einrichten, dass man den Code selbst kompilieren, ändern und hochladen kann.
+Mit den folgenden Schritten kann man die Arduino IDE so einrichten, dass man den Code selbst kompilieren, ändern und hochladen kann.
 
 # Vorbereitung
 
