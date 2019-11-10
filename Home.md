@@ -7,6 +7,7 @@ Available documentation:
 - [[Binary installation]]. _Just download pre-compiled binaries to your board._
 - [[IDE installation]]. _Setup the Arduino IDE to compile and run the source code on your own._
 - [[Configuration]]. _How to configure the rdzTTGOsonde software on your board._
+- [[Interactive control]]. _How to control rdzTTGOsonde with the buttons._
 - [[Other features]]. _Unstructured description of some other things._
 - [[Advanced display configuration]]. _How to change the layout of the OLED/TFT display of your board._
 
