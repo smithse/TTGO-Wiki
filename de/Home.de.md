@@ -4,8 +4,8 @@ Diese Software macht aus einem ESP32-Board mit SX127x-LoRa-Chip und einem Displa
 
 Verfügbare Dokumentation:
 - [[Unterstützte Boards]]. _Welche ESP32-Boards verwendet werden können._
-- [[Binärinstallation]]. _Just download pre-compiled binaries to your board._
-- [[IDE installation]]. _Setup the Arduino IDE to compile and run the source code on your own._
-- [[Configuration]]. _How to configure the rdzTTGOsonde software on your board._
-- [[Other features]]. _Unstructured description of some other things._
+- [[Binärinstallation]]. _Fertige Binär-Images auf das Board laden._
+- [[Installation mit Arduino-IDE]]. _Arduino IDE einrichten, um Quellcode selbst zu kompilieren und auszuführen._
+- [[Konfiguration]]. _Wie man die rdzTTGOsonde-Software konfiguriert._
+- [[Weitere Features]]. _Unstrukturierte Beschreibung von ein paar weiteren Dingen._
 - [[Advanced display configuration]]. _How to change the layout of the OLED/TFT display of your board._
