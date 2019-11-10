@@ -4,13 +4,12 @@ _Hinweis: Verhalten kann in screens.txt geändert werden_
 
 Taste 1:
 * Einzelner Tastendruck:
-  * In der Spektrumanzeige: Wechseln Sie zur Scan-Anzeige
+  * In der Spektrumanzeige: zur Scan-Anzeige wechseln
   * In der Scan-Anzeige: Zur Decoder-Anzeige wechseln
   * In der Decoder-Anzeige: Zur nächsten Frequenz wechseln (in der Registerkarte QRG / qrg.txt konfiguriert)
-
-* Doppelter Tastendruck
+* Doppelter Tastendruck:
   * Zur Scan-Anzeige wechseln (falls in der Decoder-Anzeige)
-* Mittellanger Tastendruck (ca. 3 Sekunden)
+* Mittellanger Tastendruck (ca. 3 Sekunden):
   * Zur Spektrumsanzeige wechseln
 * Langer Tastendruck (>5 Sekunden):
   * Zu WiFi-Scan-Modus wechseln
