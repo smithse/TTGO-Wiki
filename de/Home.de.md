@@ -7,5 +7,6 @@ Verfügbare Dokumentation:
 - [[Binärinstallation]]. _Fertige Binär-Images auf das Board laden._
 - [[Installation mit Arduino‐IDE]]. _Arduino IDE einrichten, um Quellcode selbst zu kompilieren und auszuführen._
 - [[Konfiguration]]. _Wie man die rdzTTGOsonde-Software konfiguriert._
+- [[Interaktive Steuerung]]. _Wie man rdzTTGOSonde über die Taster steuert._
 - [[Weitere Features]]. _Unstrukturierte Beschreibung von ein paar weiteren Dingen._
 - [[Experten‐Display‐Konfiguration]]. _Modifikation des Layouts des OLED/TFT-Displays. nur in Englisch._
