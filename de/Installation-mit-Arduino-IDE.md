@@ -38,7 +38,7 @@ Installiere "U8g2"
 
 Installiere "MicroNMEA"
 
-(Installieren "TFT_22_ILI9225" - derzeit nicht erforderlich)
+(Installiere "TFT_22_ILI9225" - derzeit nicht erforderlich)
 
 ## Zusätzliche Bibliotheken, Teil 2
 
