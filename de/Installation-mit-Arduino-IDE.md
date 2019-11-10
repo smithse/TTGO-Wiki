@@ -4,13 +4,13 @@ Mit den folgenden Schritten kann man die Arduino IDE so einrichten, dass man den
 
 ## Arduini IDE
 
-Laden die neueste Arduino IDE-Software von arduino.cc/en/Main/Software herunter
+Lade die neueste Arduino IDE-Software von arduino.cc/en/Main/Software herunter
 
 ## ESP32-Unterstützung
 
 File -> Preferences (oder Arduino -> Preferences unter MacOS)
 
-gehe zu "Additional Board Manager URLs"
+Unter "Additional Board Manager URLs"
 
 *https://dl.espressif.com/dl/package_esp32_index.json* hinzufügen und OK drücken
 
