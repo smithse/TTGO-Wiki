@@ -43,14 +43,14 @@ Installiere "MicroNMEA"
 ## Zusätzliche Bibliotheken, Teil 2
 
 Wähle unter https://github.com/me-no-dev/ESPAsyncWebServer "Download ZIP", extrahiere es in den Bibliotheksordner der 
-Arduino-IDE (~/Documents/Arduino/libraries unter MacOS), und bennene den Ordner in ESPAsyncWebServer um ("-master" entfernen).
+Arduino-IDE (~/Documents/Arduino/libraries unter MacOS), und benenne den Ordner in ESPAsyncWebServer um ("-master" entfernen).
 
 Wähle unter https://github.com/me-no-dev/AsyncTCP "Download ZIP", extrahiere es in den Bibliotheksordner
-der Arduino-IDE, und benenne den Hauptordner in AsyncTCP um.
+der Arduino-IDE, und benenne den Hauptordner in AsyncTCP um ("-master" entfernen).
 
 ## Zusätzliche Bibliotheken, Teil 3
 
-Kopiere die Verzeichnisse libraries/SX1278FSK und libraries/SondeLib of this project to the library folder of your Arduino IDE, or even better, create symbolic links (MacOS / Linux):
+Kopiere die Verzeichnisse libraries/SX1278FSK und libraries/SondeLib dieses Projekts zum Bibliotheksordner der Arduino-IDE, oder - noch besser - lege symbolische Links an (MacOS / Linux):
 
 ```
 cd ~/Documents/Arduino/Bibliotheken
