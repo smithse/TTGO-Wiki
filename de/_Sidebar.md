@@ -10,5 +10,5 @@
   * [[Empfänger-Konfiguration]]
   * [[Datenfeed-Konfiguration]]
 * [[Weitere Features]]
-* [[Experten-Display-Konfiguration]]
+* [[Experten‐Display‐Konfiguration]]
 * [[NFAQ (Not Frequently Asked Questions)]]
