@@ -1,6 +1,6 @@
 ## First startup (autoconfiguration)
 
-The software will try to automatically detect the board type you are using (based on the state of some input pints on boot time). If you use a different board, additional things connected to your board, or a different wiring of external display, this might not work (it should work in the default configuration of all devices mentioned in [[Supported boards]]).
+The software will try to automatically detect the board type you are using (based on the state of some input pins on boot time). If you use a different board, additional things connected to your board, or a different wiring of external display, this might not work (it should work in the default configuration of all devices mentioned in [[Supported boards]]).
 
 * TTGO Lora32 v1 / Heltec v1 / Heltec v2: (detected by GPIO16==0 on startup)
   * 0.9" OLED display connected to SDA=4, SCL=15 (RST=16)
