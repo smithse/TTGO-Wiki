@@ -10,4 +10,4 @@ Auf das Webinterface von rdzTTGOsonde zugreifen ([http://192.168.4.1](http://192
 * [[Hardware-Konfiguration]] - _Anpassung der Konfiguration an die verwendete Hardware_
 * [[Software-Konfiguration]] - _Anpassung des Verhaltens des Interfaces an persönliche Wünsche_
 * [[Empfänger-Konfiguration]] - _Kalibrierung und Optimierung der Empfängerkonfiguration_
-* [[Datenfeed-Konfiguration]] - _Konfiguration der Datenübertragung an externe Software (aprsmap, APRSdroid)
+* [[Datenfeed-Konfiguration]] - _Konfiguration der Datenübertragung an externe Software (aprsmap, APRSdroid)_
