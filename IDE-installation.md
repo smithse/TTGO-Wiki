@@ -14,7 +14,7 @@ go to "Additional Board Manager URLs"
 
 Add *https://dl.espressif.com/dl/package_esp32_index.json* and press oK
 
-Tool -> Boad -> Boards Manager
+Tool -> Board -> Boards Manager
 
 search for "esp32"
 
