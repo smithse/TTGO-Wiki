@@ -9,6 +9,7 @@
   * [[Software configuration]]
   * [[Receiver configuration]]
   * [[Data feed configuration]]
+* [[Interactive control]]
 * [[Other features]]
 * [[Advanced display configuration]]
 * [[NFAQ (Not Frequently Asked Questions)]]
