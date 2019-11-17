@@ -12,4 +12,4 @@ On the web interface, select the **Config** tab. If autoconfiguration does not s
 * Power control pin:
   * Configured GPIO pin will be configured as output and driven LOW (add 128 to pin number for HIGH). Useful for Heltec v2 boards that use GPIO21 to switch the display's VCC on.
 * GPS:
-  * If you have a GPS receiver on your board (on-board for a T-Beam, or external), rdzTTGOsonde can calculate distance and bearing from your current position to the received sonde. You have to configure which RXD pin the GPS is connected to. The software expects NMEA data (RMC records) at 9600 baud, 8N1
+  * If you have a GPS receiver on your board (on-board for a T-Beam, or external), rdzTTGOsonde can calculate distance and bearing from your current position to the received sonde. You have to configure which RXD pin the GPS is connected to. The software expects NMEA data (RMC records) at 9600 baud, 8N1. The software is not sending data to the GPS board, so you can leave the TXD pin at -1.
