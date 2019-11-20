@@ -66,6 +66,8 @@ Nachteile:
 - Inkonsistente Qualität. Mein Board hat zwei Probleme (aber anscheinend haben andere Leute etwas mehr Glück):
   * Beim Anschließen an USB (insbesondere ohne Batterie im Batteriehalter) macht die Spule des Batterieladegeräts ein sehr störendes hörbares Geräusch (anscheinend sind alle Platinen etwas von diesen Problemen betroffen, aber meines macht ein besonderes Ladegeräusch, für andere ist es nur ein wenig Lärm).
   * Der Akku-Ladegerät-Chip verursacht insbesondere im reinen Akkubetrieb GROSSE HF-Störungen. (https://vimeo.com/341131491)
+  * Es gibt Berichte, dass das Board nach dem Booten bzw. Aktivieren von WLAN abstützt (brownout reset - Meldung auf der seriellen Schnittstelle), insbesondere wenn es ohne Akku nur über USB betrieben wird. Mein Board ist von diesem Problem nicht betroffen, aber wenn man dieses Problem hat, hilft es vermutlich, einen größeren Stabilisierungskondensator bei der Spannungsversorgung zu ergänzen, siehe: https://github.com/LilyGO/TTGO-T-Beam/issues/3
+
 
 Man kann das Qualitätsproblem beseitigen, indem man den Batterieladechip deaktivieren und eine Batterie direkt an die 5-V-Stromversorgung anschließen. Nach dieser Änderung kann man den Akku nicht über USB aufladen (bzw. sollten dies aus Sicherheitsgründen nicht tun).
 
