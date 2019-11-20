@@ -67,6 +67,9 @@ Disadvantages:
 - Inconsistent quality. My board has two problems (but apparently other people have slightly better luck):
   * When connected to USB (in particular without battery in battery holder), the coil of the battery charger makes very annoying audible noise (seems like all boards are somewhat affected by this problems, but mine makes particular load noise, for others its just a little noise).
   * Battery charger chip causes HUGE RF interference in particular in battery-only operation. (https://vimeo.com/341131491)
+  * Other people have reported that the board crashes right after booting / activating WiFi. My board is not affected, but if yours is, you can probably fix it by adding a larger stabilising capacitor to the power supply, as explained here: 
+https://github.com/LilyGO/TTGO-T-Beam/issues/3
+
 
 You can eliminate the quality problem by disabling the battery charger chip and directly connecting a battery to the 5V power supply. You cannot (should not in order to avaid hazards) charge the battery via USB after this modification.
 
