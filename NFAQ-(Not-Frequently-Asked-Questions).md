@@ -1,3 +1,26 @@
+# I want to contribute to the Wiki documentation, how can I do that?
+
+Easy...
+
+1. Create a new repository on your github account. Let's call it "TTGO-Wiki".
+2. Clone the rdzTTGOsonde wiki repository to your local machine:
+```
+git clone https://github.com/dl9rdz/rdz_ttgo_sonde.wiki.git
+```
+3. Remove the original remote and add your new github repo as the new origin
+```
+git remote rm origin
+git remote add origin https://github.com/<your github account name>/TTGO-Wiki.git
+git push -u origin master
+```
+4a. Make your changes locally and then commit and push them to the github account
+
+4b. Or edit the Wiki files online at github.com
+
+5. Send me a link to your repository, with a short description of your changes (e-mail or issue on gitlab)
+
+
+
 # I want to extract all files from the ESP32, how can I do that?
 
 Easy...
