@@ -12,4 +12,5 @@
 * [[Interactive control]]
 * [[Other features]]
 * [[Advanced display configuration]]
+* [[Display explanations]]
 * [[NFAQ (Not Frequently Asked Questions)]]
