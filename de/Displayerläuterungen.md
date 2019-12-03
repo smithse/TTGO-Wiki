@@ -54,7 +54,7 @@
 | 1 | Sonden-ID |
 | 2 | Breitengrad |
 | 3 | Längengrad |
-| 4 | Symbol on the left if TTGO GPS fix; d=xxx: distance to sonde |
+| 4 | Symbol links wenn TTGO-GGPS-Position bekannt; d=xxx: Distanz zur Sonde |
 | 5 | Sondenfrequenz |
 | 6 | Sondentyp |
 | 7 | Höhe |
