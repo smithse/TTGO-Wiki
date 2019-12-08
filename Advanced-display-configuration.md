@@ -1,4 +1,4 @@
-By modified screens.txt you can change the layout of the display content (if you are using the IDE, you can change the file in RX_FSK/data and use Tools > ESP Sketch Data Upload to update the file on the board; otherwise you can use [http://rdzsonde.local/edit.html?screens.txt](http://rdzsonde.local/edit.html?file=screens.txt))
+By modified screens.txt you can change the layout of the display content (if you are using the IDE, you can change the file in RX_FSK/data and use Tools > ESP Sketch Data Upload to update the file on the board; otherwise you can use [http://rdzsonde.local/edit.html?file=screens.txt](http://rdzsonde.local/edit.html?file=screens.txt))
 
 The file contains some self-description, but has a rather complex syntax. Maybe someday I will replace it with something nicer such as a JSON document... but not a priority right now.
 
