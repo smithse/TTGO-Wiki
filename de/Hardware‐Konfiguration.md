@@ -4,6 +4,7 @@ Wähle auf der Weboberfläche die Registerkarte **Config**. Wenn die automatisch
   * Display Type: 0 für das integrierte 0,9"-OLED SSD1306 (oder extern an T-Beam angeschlossen), 2 für ein 1,3"-OLED, das wie das 0,9"-OLED angeschlossen wird, oder 1 für ein ILI9225-basierte TFT-Display
   * Konfiguriere OLED SDA und OLED SCL (und auch OLED RST, wenn eine Reset-Leitung an das Display angeschlossen ist) für ein 0,9"/1,3"-OLED-Display
   * Konfiguriere TFT SDA, TFT CLK, TFT RST, TFT CS und TFT RS für das SPI-basierte ILI9225-TFT-Display
+  * Wenn das TFT-Display einen LED-Pin am Anschluss hat, verbinde diesen mit VCC
 * Tasten:
   * Es werden bis zu zwei Tasten unterstützt, es müssen die GPIO-Nummern der Pins eingeben. Wenn das Board über eine echten Taster verfügt, wird dieser Taster automatisch konfiguriert. Man kann zusätzliche Tasten hinzufügen, entweder "echte" Tasten, oder den Touch-Button-Modus vom ESP32 verwenden (bei dem man nur ein Stück Draht an einen Pin anschließen und dann diesen Pin berühren muss).
   * Für echte Tasten muss die Taste zwischen Pin und GND angeschlossen werden. Der interne Pull-up-Widerstand des ESP32 wird aktiviert, sofern dies von der Hardware unterstützt wird (d. h. für GPIO < 33). Für andere Eingangspins muss man manuell einen Pull-Up-Widerstand zwischen Pin und 3V3 anschließen.
