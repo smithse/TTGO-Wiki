@@ -49,6 +49,8 @@ folder of your Arduino IDE (~/Documents/Arduino/libraries on MacOS), rename main
 From https://github.com/me-no-dev/AsyncTCP select "Download ZIP", extract to the libraries folder
 of your Arduino IDE, and rename main folder to AsyncTCP
 
+From https://github.com/lewisxhe/AXP202X_Library/archive/v1.0.zip select "Download TIP", and extract to the libraries folder of your Arduino IDE
+
 ## Additional libraries, part 3
 
 Copy the libraries/SX1278FSK and libraries/SondeLib folder of this project to your Arduino IDE's libraries
@@ -73,6 +75,5 @@ Select "TTGO LoRa32-OLED v1" (or T-Beam, or something that fits your needs)
 Compile and Upload code
 
 Upload data to SPIFFS with Tools -> ESP32 Sketch Data Upload
-
 
 
