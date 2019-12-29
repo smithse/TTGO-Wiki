@@ -49,7 +49,7 @@ folder of your Arduino IDE (~/Documents/Arduino/libraries on MacOS), rename main
 From https://github.com/me-no-dev/AsyncTCP select "Download ZIP", extract to the libraries folder
 of your Arduino IDE, and rename main folder to AsyncTCP
 
-From https://github.com/lewisxhe/AXP202X_Library/archive/v1.0.zip select "Download TIP", and extract to the libraries folder of your Arduino IDE
+Download https://github.com/lewisxhe/AXP202X_Library/archive/v1.0.zip and extract to the libraries folder of your Arduino IDE
 
 ## Additional libraries, part 3
 
