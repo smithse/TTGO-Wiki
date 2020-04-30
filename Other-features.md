@@ -9,7 +9,7 @@ This will update only the software, not the file system. In some version updates
 
 ## File editor
 
-http://rdzsonde.local/edit.html?filename
+http://rdzsonde.local/edit.html?file=<filename>
 
 You can edit any small text file on the Flash file system. **Be aware that by doing unexpected modification, you can completely break the system, requiring re-flashing the system to a stable state.**
 * config.txt _stores all options in the Config tab, better edit this file via the web interface_
