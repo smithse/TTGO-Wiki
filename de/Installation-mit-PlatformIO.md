@@ -38,3 +38,8 @@ pio run -e ttgo-lora32-v1 --target uploadfs
 ```
 
 Hinweis: Das Environment "ttgo-lora32-v1" eignet sich zum Erstellen eines Binärimages, das mit allen [[unterstützten Boards|Unterstützte Boards]] kompatibel ist.
+
+Serial port monitor mit Debug-Daten:
+```
+pio device monitor
+```
