@@ -34,4 +34,9 @@ pio run -e ttgo-lora32-v1 --target upload
 pio run -e ttgo-lora32-v1 --target uploadfs 
 ```
 
+Serial port monitor with debugging data
+```
+pio device monitor
+```
+
 Note: The environment ttgo-lora32-v1 will create a binary image that is compatible with all [[Supported Boards]].
