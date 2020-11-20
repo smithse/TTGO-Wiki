@@ -2,6 +2,7 @@
 * [[Supported boards]]
 * [[Binary installation]]
 * [[IDE installation]]
+* [[PlatformIO installation]]
 * [[Configuration]]
   * [[First startup]]
   * [[WiFi configuration]]
