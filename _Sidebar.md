@@ -1,7 +1,7 @@
 * [[Home]]
 * [[Supported boards]]
 * [[Binary installation]]
-* [[IDE installation]]
+* [[Arduino IDE installation]]
 * [[PlatformIO installation]]
 * [[Configuration]]
   * [[First startup]]
