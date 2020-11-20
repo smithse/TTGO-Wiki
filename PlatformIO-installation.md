@@ -9,7 +9,7 @@ Below is just one way how to install PlatformIO Core command line in a separate 
 ## Setup
 (Linux or MacOS; Windows might require minor changes to commands)
 
-(First command only if virtualenv is not yet installed already):
+(First command only if virtualenv is not yet installed already; I assume Python is already installed):
 ```
 pip install virtualenv
 virtualenv ~/.platformio/penv
@@ -34,4 +34,4 @@ pio run -e ttgo-lora32-v1 --target upload
 pio run -e ttgo-lora32-v1 --target uploadfs 
 ```
 
-Note: The environment rrgo-lora32-v1 will create a binary image that is compatible with all [[Supported Boards]].
+Note: The environment ttgo-lora32-v1 will create a binary image that is compatible with all [[Supported Boards]].
