@@ -2,6 +2,7 @@
 * [[Unterstützte Boards]]
 * [[Binärinstallation]]
 * [[Installation mit Arduino‐IDE]]
+* [[Installation mit PlatformIO]]
 * [[Konfiguration]]
   * [[Erster Start]]
   * [[WLAN‐Konfiguration]]
