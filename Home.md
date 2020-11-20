@@ -6,6 +6,7 @@ Available documentation:
 - [[Supported boards]]. _Check what boards you can use._
 - [[Binary installation]]. _Just download pre-compiled binaries to your board._
 - [[IDE installation]]. _Setup the Arduino IDE to compile and run the source code on your own._
+- [[PlatformIO installation]]. _Setup PlatformIO to compile and run the source code on your own (alternative to Arduino IDE)._
 - [[Configuration]]. _How to configure the rdzTTGOsonde software on your board._
 - [[Interactive control]]. _How to control rdzTTGOsonde with the buttons._
 - [[Other features]]. _Unstructured description of some other things._
