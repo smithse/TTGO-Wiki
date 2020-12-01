@@ -51,6 +51,10 @@ of your Arduino IDE, and rename main folder to AsyncTCP
 
 Download https://github.com/lewisxhe/AXP202X_Library/archive/v1.0.zip and extract to the libraries folder of your Arduino IDE
 
+**NEW:**
+* Download https://github.com/dx168b/async-mqtt-client/archive/master.zip
+* Load the .zip file with Sketch → Include Library → Add .ZIP Library
+
 ## Additional libraries, part 3
 
 Copy the libraries/SX1278FSK and libraries/SondeLib folder of this project to your Arduino IDE's libraries
