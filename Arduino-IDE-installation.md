@@ -57,7 +57,7 @@ Download https://github.com/lewisxhe/AXP202X_Library/archive/v1.0.zip and extrac
 
 ## Additional libraries, part 3
 
-Copy the libraries/SX1278FSK and libraries/SondeLib folder of this project to your Arduino IDE's libraries
+Copy the (libraries/SX1278FSK and) libraries/SondeLib folder of this project to your Arduino IDE's libraries
 folders, or, alternatively, create symbolic links (MacOS/Linux):
 
 ```
@@ -65,6 +65,7 @@ cd ~/Documents/Arduino/libraries
 ln -s <whereyouclonedthegit>/rdz_ttgo_sonde/libraries/SondeLib/ .
 ln -s <whereyouclonedthegit>/rdz_ttgo_sonde/libraries/SX1278FSK/ .
 ```
+(libraries/SX1278FSK no longer needed in more recent versions)
 
 Restart the Arduino IDE
 
