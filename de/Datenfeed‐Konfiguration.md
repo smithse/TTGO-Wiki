@@ -33,3 +33,14 @@ _ (oder RF-Port 2/3/4; die Portnummer am Ende muss mit dem in der Konfiguration 
 * APRS-TCP-Host
 * APRS-TCP-Port
 * Bewertungslimit
+
+## SondeHub-Parameter
+
+* sondehub.active (Defaultwert 0, auf 1 setzen, um SondeHub-Upload zu aktivieren)
+* sondehub.host (Defaultwert api.v2.sondehub.org, nicht ändern)
+* sondehub.callsign (Defaultwert CHANGEME_RDZTTGO, hier Stationsnamen/Rufzeichen eintragen)
+* sondehub.lat (Defaultwert null, lat/lon auf GPS-Koordinaten für Stationsanzeige auf öffentlicher SondeHub-Karte setzen)
+* sondehub.lon (Defaultwert null, lat/lon auf GPS-Koordinaten für Stationsanzeige auf öffentlicher SondeHub-Karte setzen)
+* sondehub.alt (Defaultwert null, alt auf Stationshöhe für Stationsanzeige auf öffentlicher SondeHub-Karte setzen)
+* sondehub.antenna (verwendete Empfängerantennen, wird auf SondeHub-Karte angezeigt)
+* sondehub.email (Email wird an SondeHub gesendet, nur für die Entwickler für Debugging)
