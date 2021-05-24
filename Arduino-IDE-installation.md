@@ -49,7 +49,8 @@ folder of your Arduino IDE (~/Documents/Arduino/libraries on MacOS), rename main
 From https://github.com/me-no-dev/AsyncTCP select "Download ZIP", extract to the libraries folder
 of your Arduino IDE, and rename main folder to AsyncTCP
 
-Download https://github.com/lewisxhe/AXP202X_Library/archive/v1.0.zip and extract to the libraries folder of your Arduino IDE
+Download https://github.com/lewisxhe/AXP202X_Library/archive/refs/tags/V1.1.3.zip
+and extract to the libraries folder of your Arduino IDE
 
 **NEW:**
 * Download https://github.com/dx168b/async-mqtt-client/archive/master.zip
@@ -57,15 +58,13 @@ Download https://github.com/lewisxhe/AXP202X_Library/archive/v1.0.zip and extrac
 
 ## Additional libraries, part 3
 
-Copy the (libraries/SX1278FSK and) libraries/SondeLib folder of this project to your Arduino IDE's libraries
+Copy the libraries/SondeLib folder of this project to your Arduino IDE's libraries
 folders, or, alternatively, create symbolic links (MacOS/Linux):
 
 ```
 cd ~/Documents/Arduino/libraries
 ln -s <whereyouclonedthegit>/rdz_ttgo_sonde/libraries/SondeLib/ .
-ln -s <whereyouclonedthegit>/rdz_ttgo_sonde/libraries/SX1278FSK/ .
 ```
-(libraries/SX1278FSK no longer needed in more recent versions)
 
 Restart the Arduino IDE
 
