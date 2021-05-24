@@ -48,7 +48,7 @@ Arduino-IDE (~/Documents/Arduino/libraries unter MacOS), und benenne den Ordner 
 Wähle unter https://github.com/me-no-dev/AsyncTCP "Download ZIP", extrahiere es in den Bibliotheksordner
 der Arduino-IDE, und benenne den Hauptordner in AsyncTCP um ("-master" entfernen).
 
-Extrahiere https://github.com/lewisxhe/AXP202X_Library/archive/v1.0.zip in den Bibliotheksordner
+Extrahiere https://github.com/lewisxhe/AXP202X_Library/archive/refs/tags/V1.1.3.zip in den Bibliotheksordner
 der Arduino-IDE.
 
 ## Zusätzliche Bibliotheken, Teil 3
