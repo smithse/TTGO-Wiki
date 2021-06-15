@@ -6,6 +6,7 @@ On the web interface, select the **Config** tab. If autoconfiguration does not s
   * Configure OLED SDA and OLED SCL (and also OLED RST if a reset line is connected to your display) for the 0.9"/1.3" OLED displays
   * Configure TFT SDA, TFT CLK, TFT RST, TFT CS and TFT RS for SPI-based ILI9225 TFT display
   * If your TFT display connector has a "LED" pin, connect it to VCC
+  * For the OLED display, setting orientation to "3" will flip the display by 180° (upside down); all other values correspond to "normal"  mode. For the TFT display, you can use 0/1/2/3 to rotate the display in 90° steps.  Note that you should use different screen layouts for landscape and portrait mode (see software config).
 * Buttons:
   * Up to two buttons are supported, you have to enter the GPIO number of the pins. If your supported board comes with an physical button, this button is automatically configured. You can add additional buttons, either "real" buttons, or use the touch button mode of ESP32 (in which you just connect a piece of wire to a pin and then just touch that pin).
   * For real buttons, you need to connect the button between pin and GND. The internal pull-up resistor of the ESP32 is activated where supported by hardware (i.e., for GPIO<33). For other input pins, you need to manually connect a pull-up resistor between pin and 3V3.
