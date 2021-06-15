@@ -17,6 +17,6 @@ You can edit any small text file on the Flash file system. **Be aware that by do
 * networks.txt _stores all entries in the WiFi tab, better edit this file via the web interface_
 * index.html _the main page of the web interface_
 * style.css _the style file of the main page of the web interface_
-* screens.txt _the display layout configuration, see below for details_
+* screens1.txt, screens2.txt, screens3.txt _the display layout configuration, see [[Advanced display configuration]] for details_
 
 If you want to keep some part of the configuration during a full system upgrade, you can access the file via above URL, copy the file content, re-flash your board, and replace the newly flashed configuration with the copied content.
