@@ -14,6 +14,16 @@
 ## Maxsonde (``maxsonde``)
 Number of entries in the "QRG" tab. Must be less than 100. Must be larger than 0 as well :-)
 
+## Screen config (1=OLED, 2=TFT, 3=TFT[port]).
+Selects the screen layout file to be used. (screens1.txt / screens2.txt / screens3.txt; you can also add additional files).
+
+In the standard version, screens1.txt is designed for the small OLED display, screens2.txt for the TFT display in landscape format, and screens3.txt for the TFT in portrait format. Note that this setting only selects the layout (which information is placed where on the display). The type of display and its orientation is defined in the hardware config.  Make sure to select a screen file that fits to your hardware config!
+
+(Selecting a different config probably requires rebooting the TTGO.)
+
+## Display screens
+Defines which screens from the screen layout file should be used. On the left, all entries from the screens#.txt file are shown. Enter a list of numbers. The first number should be a "Scan" layout. After that, you can put a sequence of numbers corresponding to screens you can cycle through with a button.
+
 # Spectrum display parameters
 
 ## ShowSpectrum (s) (``spectrum``)
@@ -28,7 +38,7 @@ Starting frequency in MHz, usually 400 MHz
 Configuration value for RXBW during spectrum recording (needs additional testing, probably we should (also) set AGCBW?)
 
 ## Spectrum MHz marker (``marker``)
-Displey MHz values (start, end) in display in spectrum mode
+Display MHz values (start, end) in display in spectrum mode
 
 ## Spectrum noisefloor (``noisefloor``)
 RSSI value at bottom edge of display
