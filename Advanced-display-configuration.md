@@ -1,4 +1,4 @@
-By modified screens.txt you can change the layout of the display content (if you are using the IDE, you can change the file in RX_FSK/data and use Tools > ESP Sketch Data Upload to update the file on the board; otherwise you can use [http://rdzsonde.local/edit.html?file=screens.txt](http://rdzsonde.local/edit.html?file=screens.txt))
+By modified screens.txt (on newer version, use screens1.txt, screens2.txt or screens3.txt) you can change the layout of the display content (if you are using the IDE, you can change the file in RX_FSK/data and use Tools > ESP Sketch Data Upload to update the file on the board; otherwise you can use [http://rdzsonde.local/edit.html?file=screens.txt](http://rdzsonde.local/edit.html?file=screens.txt))
 
 The file contains some self-description, but has a rather complex syntax. Maybe someday I will replace it with something nicer such as a JSON document... but not a priority right now.
 
@@ -62,6 +62,6 @@ For the OLED display, display elements are defined by "line,column=something". T
 
 For the TFT display, you can either use fixed size fonts (0,1,2) or proportional fonts. Usually the proportional fonts a nicer, but on a screen update, if a shorter text replaces a longer text, the end of the longer text will still remain on the screen. To avoid this problem, you can define the total length of some text field by using "line,column,length=something".  Length is scaled in the same way as the column (according to scale definition).
 
-If you use "line,column,-length=somethign", something will be written right-justified in the box defined by line, column and length.
+If you use "line,column,-length=something", something will be written right-justified in the box defined by line, column and length.
 
 See screens.txt for details about all possible display elements.
