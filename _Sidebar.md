@@ -3,6 +3,7 @@
 * [[Binary installation]]
 * [[Arduino IDE installation]]
 * [[PlatformIO installation]]
+* [[ttgoconfig script]]
 * [[Configuration]]
   * [[First startup]]
   * [[WiFi configuration]]
