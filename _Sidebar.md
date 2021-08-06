@@ -1,5 +1,6 @@
 * [[Home]]
 * [[Supported boards]]
+* [[Supported displays]]
 * [[Binary installation]]
 * [[Arduino IDE installation]]
 * [[PlatformIO installation]]
