@@ -12,7 +12,7 @@ File -> Preferences (oder Arduino -> Preferences unter MacOS)
 
 Unter "Additional Board Manager URLs"
 
-*https://dl.espressif.com/dl/package_esp32_index.json* hinzufügen und OK drücken
+*https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json* hinzufügen und OK drücken
 
 Tool -> Board -> Boards Manager
 
@@ -38,7 +38,6 @@ Installiere "U8g2"
 
 Installiere "MicroNMEA"
 
-(Installiere "TFT_22_ILI9225" - derzeit nicht erforderlich)
 
 ## Zusätzliche Bibliotheken, Teil 2
 
