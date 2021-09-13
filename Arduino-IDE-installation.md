@@ -54,7 +54,9 @@ and extract to the libraries folder of your Arduino IDE
 * Download https://github.com/dx168b/async-mqtt-client/archive/master.zip
 * Load the .zip file with Sketch → Include Library → Add .ZIP Library
 
-## Additional libraries, part 3
+## NO LONGER NEEDED: Additional libraries, part 3
+
+For versions older than devel20210912 only:
 
 Copy the libraries/SondeLib folder of this project to your Arduino IDE's libraries
 folders, or, alternatively, create symbolic links (MacOS/Linux):
