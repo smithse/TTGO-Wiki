@@ -50,14 +50,15 @@ der Arduino-IDE, und benenne den Hauptordner in AsyncTCP um ("-master" entfernen
 Extrahiere https://github.com/lewisxhe/AXP202X_Library/archive/refs/tags/V1.1.3.zip in den Bibliotheksordner
 der Arduino-IDE.
 
-## Zusätzliche Bibliotheken, Teil 3
+## NICHT MEHR NOTWENDIG: Zusätzliche Bibliotheken, Teil 3
 
-Kopiere die Verzeichnisse libraries/SX1278FSK und libraries/SondeLib dieses Projekts zum Bibliotheksordner der Arduino-IDE, oder - noch besser - lege symbolische Links an (MacOS / Linux):
+Nur für Versionen älter als devel20210912:
+
+Kopiere der Verzeichnisse libraries/SondeLib dieses Projekts zum Bibliotheksordner der Arduino-IDE, oder - noch besser - lege symbolische Links an (MacOS / Linux):
 
 ```
 cd ~/Documents/Arduino/Bibliotheken
 ln -s <whereyouclonedthegit>/rdz_ttgo_sonde/libraries/SondeLib/ .
-ln -s <whereyouclonedthegit>/rdz_ttgo_sonde/libraries/SX1278FSK/ .
 ```
 
 Starte die Arduino IDE neu
