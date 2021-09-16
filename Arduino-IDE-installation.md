@@ -20,6 +20,8 @@ search for "esp32"
 
 Install "esp32 by Espressif Systems"
 
+**You need version 1.0.6. Version 2.0.0 is not yet supported**
+
 ## ESP32 Flash Filesystem Upload support
 
 Get the zip file of the latest release from 
@@ -37,6 +39,8 @@ Select Tools -> Library Manager
 Install "U8g2"
 
 Install "MicroNMEA"
+
+Install "GFX Library for Arduino"
 
 ## Additional libraries, part 2
 
