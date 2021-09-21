@@ -34,13 +34,3 @@ _(or RF-Port 2/3/4; the port number at the end must match the value configured i
 * APRS TCP port
 * Rate limit
 
-## SondeHub Parameters
-
-* sondehub.active (default value 0, set to 1 to enable SondeHub uploading)
-* sondehub.host (default value api.v2.sondehub.org, do not change)
-* sondehub.callsign (default value CHANGEME_RDZTTGO, set to your station name/callsign)
-* sondehub.lat (default value null, set lat/lon GPS coordinates to show on public map)
-* sondehub.lon (default value null, set lat/lon  GPS coordinates to show on public map)
-* sondehub.alt (default value null, set lat/lon  GPS coordinates to show on public map)
-* sondehub.antenna (list antenna used with station on public map)
-* sondehub.email (email only visible to SondeHub developers for debugging)
