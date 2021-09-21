@@ -1,4 +1,4 @@
-# Data feed configuration
+# KISS TNC/AXUDP/AXTCP data feed configuration
 
 rdzTTGOsonde can send data to external devices. Currently supported are AXUDP packets sent to aprsmap on a PC, and KISS over TCP/IP for APRSdroid, and MQTT.  Sondehub upload is currently being tested.
 
