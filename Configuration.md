@@ -13,6 +13,6 @@ Coonnect to the web interface of your rdzTTGOsonde ([http://192.168.4.1](http://
 * [[Receiver configuration]] _How to calibrate and optimize receiver configuration_
 * [[Data feed configuration]] _How to configure sending received data to external devices (aprsmap, APRSdroid)
 * [[MQTT configuration]]
-* [[SondeHub configuration]]
+* [[SondeHub settings]]
 * [[SondeHub import]]
 * [[Hardware configuration]] _How to adjust configuration to specifics of your hardware_
