@@ -1,5 +1,5 @@
 
-# Spectrum display settings
+# Spectrum display configuration
 
 ## ShowSpectrum (s) (``spectrum``)
 If set to a value spectrum >= 0, the spectrum mode is started after reboot (otherwise, the scan mode).
