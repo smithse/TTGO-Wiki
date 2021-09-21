@@ -1,4 +1,4 @@
-[[Diese Seite auf deutsch|Home.de]]
+[[Diese Seite auf deutsch (needs some updates)|Home.de]]
 
 # rdzTTGOsonde overview
 
