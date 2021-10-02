@@ -17,7 +17,9 @@ Other custom screen files can be created, uploaded, and selected here.
 Defines which screens from the screen layout file (screensX.txt) should be used. On the left, all entries from the screens#.txt file are shown. Enter a list of numbers. The first number should be a "Scan" layout. After that, you can put a sequence of numbers corresponding to screens you can cycle through with a button.
 
 ## No-RX-timeout
-If set to -1, screen will remain active forever even if no signal is received anymore. Any other value X will cause the TTGO to switch back to Scan mode after X seconds (assumes that the screens#.txt contains "N" as the timer action value)
+If set to -1, a decoder display will remain active forever even if no signal is received anymore. Any other value X will trigger the No-RX action of the TTGO after X seconds of no reception (in the default screen, this is the "0"-action, which causes the TTGO to switch back to Scan mode).
+
+Technically, any letter "N" in the screens#.txt files will be replaced by the No-RX-timeout value when the file is read. This means that any change to this parameter will only have effect after the file is read again (for example, after a reset). 
 
 ## TFT orientation
 You can use this value to rotate the TFT display (0=portrait, 1=landscape, 2=portrait rotated 180°, 3=landscape rotated 180°.
