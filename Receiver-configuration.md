@@ -2,7 +2,7 @@
 
 ## Calibration
 
-In the Config tab, you can set "Show AFC value (showafc)" to 1. During reception of a RS41 or DFM sonde, the RX chip will automatically determine the frequency error, which will be shown on the display.
+During reception of a RS41, tentatively also on M10/M20, the RX chip will automatically determine the frequency error, which will be shown on the display.  For other sonde types, some value will be shown as well, but it might be less accurate, as only RS41 uses the chip's AFC feature directly.  So if possible, use a RS41 for calibration.
 
 If your display shows a significant display error (in particular if you see a similar error for multiple sondes), the local oscillator frequency is wrong.  In this case you can enter in the config tab under "RX frequency offset (freqofs)" a correction value (in Hz).  For example, if your reception display shows "-2.5k", you should enter "-2500" as frequency offset.
 
@@ -19,4 +19,4 @@ It is imporant to known that only some discrete values (in Hz) are supported. Va
 
 Default values used to be AGCBW 25000, RXBW 12500. By reducing the bandwidth, you can enhance sensitivity (approximately half of the bandwidth is 3dB more sensitive). Alterations in the config tab will only be activated after a frequency change.
 
-Note that the automated frequency measurement and correction is only enabled for RS41 and DFM06/09. For these sondes, the chip is pretty tolerant to frequency offsets.  However, RS92 and M10 are different (they do not have a preamble that is directly supported by SX1278).  A manual frequency offset correction (measured with RS41) is essential for good sensitivity for those signals.
+Note that the automated frequency measurement and correction is only well supported for RS41. For these sondes, the chip is pretty tolerant to frequency offsets.  However, RS92 and M10 are different (they do not have a preamble that is directly supported by SX1278).  A manual frequency offset correction (measured with RS41) is essential for good sensitivity for those signals.
