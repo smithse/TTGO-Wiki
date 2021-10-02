@@ -1,13 +1,13 @@
 # SondeHub settings
 
 ## SondeHub reporting (sondehub.active)
- (default value 0, set to 1 to enable SondeHub uploading)
+ (default value 0, set to 1 to enable SondeHub uploading). Please change the callsign entry below when activating this feature.
 
 ## SondeHub location reporting (sondehub.chase)
-0: no position information is sent to SondeHub (receiver not visible on sondehub.org)
-1: fixed position (from general configuration) is sent to SondeHub
-2: TTGO GPS position is sent to SondeHub, chase mode is activated
-3: If no GPS position is available or if GPS position is close to fixed position, then operation is identical to mode (1). Otherwise, chasemode will automatically activated, operating as in mode (2)
+* 0: no position information is sent to SondeHub (receiver not visible on sondehub.org)
+* 1: fixed position (from general configuration) is sent to SondeHub
+* 2: TTGO GPS position is sent to SondeHub, chase mode is activated
+* 3: If no GPS position is available or if GPS position is close to fixed position, then operation is identical to mode (1). Otherwise, chasemode will automatically activated, operating as in mode (2)
 
 ## sondehub.host
 (default value api.v2.sondehub.org, do not change)
