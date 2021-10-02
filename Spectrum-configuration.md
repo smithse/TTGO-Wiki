@@ -3,7 +3,9 @@
 
 ## ShowSpectrum (s) (``spectrum``)
 If set to a value spectrum >= 0, the spectrum mode is started after reboot (otherwise, the scan mode).
-If spectrum > 0, the spectrum display will be active only for ``spectrum`` seconds and then automatically switch to scan mode
+
+If spectrum > 0, the spectrum display will be active only for ``spectrum`` seconds and then automatically switch to scan mode.
+
 Set to -1 to disable spectrum display
 
 ## Startfreq (MHz) (``startfreq``)
