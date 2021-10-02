@@ -1,8 +1,7 @@
 # KISS TNC/AXUDP/AXTCP data feed configuration
 
-rdzTTGOsonde can send data to external devices. Currently supported are AXUDP packets sent to aprsmap on a PC, and KISS over TCP/IP for APRSdroid, and MQTT.  Sondehub upload is currently being tested.
+rdzTTGOsonde can send data to external devices. Currently supported are AXUDP packets sent to aprsmap on a PC, and KISS over TCP/IP for APRSdroid, and MQTT.  Also supported is APRS over TCP/IP, Chasemapper via JSON/UDP, and Sondehub v2 API.
 
-_(note: data is currently incomplete and unfiltered. For DFM sonde (which transmits latitude and longitude in different frames), it may temporarily send incomplete (and thus wrong) data, and the time stamp is only updated if a DFM frame contains one (not all frames do). Please do not feed such data to public servers such as aprs.fi or radiosondy.info. Its just fine for your own map on phone or PC)_
 
 ## KISS TCP parameters (APRSdroid)
 * Set "KISS TNC" to 1 to enable the KISS service on TCP port 14590
@@ -26,11 +25,11 @@ Config -> RF Ports -> RF-Port 1 -> ":9001:9002"
 
 _(or RF-Port 2/3/4; the port number at the end must match the value configured in the rdzTTGOsonde config.)_
 
-## APRS parameters
-(currently disabled and not used)
+## APRS parameters (for example, for radiosondy.info)
 * Call
 * Passcode
 * APRS TCP host
 * APRS TCP port
 * Rate limit
 
+(DFM ID format is no longer used and will be removed soon. There is now consensus on how to map DFM serial numbers to APRS object IDs. There was a time in which different people/software used different encodings...)
