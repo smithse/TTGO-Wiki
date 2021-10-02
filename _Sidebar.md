@@ -12,6 +12,7 @@
   * [[Receiver configuration]]
   * [[Data feed configuration]]
   * [[MQTT configuration]]
+  * [[Chasemapper configuration]]
   * [[SondeHub settings]]
   * [[SondeHub import]]
   * [[Hardware configuration]]
