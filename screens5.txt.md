@@ -1,0 +1,1 @@
+For landscape orientation / large ILI9241 display
