@@ -6,7 +6,7 @@ Selects the screen layout file to be used (value X selects file screensX.txt).
 Value 0 makes an automated selection (which usually is what you want to use) based on other configuration parameters:
 * Display type OLED (SSD1306 or SH1106): screens1.txt
 * Display type ILI9225: Orientation 1 or 3 (landscape): screens2.txt, otherweise (portrait) screens3.txt
-* Display type ILI9341/9342: Orientation 1 or 3 (landscape): screens4.txt, otherwise (portrait) screens5.txt
+* Display type ILI9341/9342: Orientation 1 or 3 (landscape): screens4.txt, otherwise (portrait) [screens5.txt](screens5.txt)
 
 Make sure to select a screens file that fits to your hardware config.
 Other custom screen files can be created, uploaded, and selected here.
