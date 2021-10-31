@@ -2,7 +2,7 @@ The following steps allow you to setup the Arduino IDE such that you can compile
 
 # Preparation
 
-## Arduini IDE
+## Arduino IDE
 
 Get the latest Arduino IDE software from arduino.cc/en/Main/Software
 
