@@ -21,7 +21,6 @@ Preferred connection on T-Beam 1.0 and 1.1 is SDA=4, SCL=13, RST=14, RS=2, CS=0
 Note: THis is DIFFERENT to the axp tgt wiring on skp.wodzislaw.pl
 
 ## ILI 9341
-(Only on very recent software versions after 2020-08-06)
 
 Can be used similarily to ILI 9225. Display type must **manually** be configured in the settings. (Auto-detect cannot distinguish between ILI9225 and ILI9341, and will configure type ILI9225. You have to change that to ILI9341).
 
