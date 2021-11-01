@@ -23,9 +23,13 @@ Note: THis is DIFFERENT to the axp tgt wiring on skp.wodzislaw.pl
 ## ILI 9341
 (Only on very recent software versions after 2020-08-06)
 
-Can be used similarily to ILI 9225. Display type must manually be configured in the settings.
+Can be used similarily to ILI 9225. Display type must **manually** be configured in the settings.
 
 Recommended wiring is identical to ILI9225. With labels on my test display, for T-Beam 1.0/1.1:
 CS=0, RESET=14, DC=2, SDI(MOSI)=4, SCK=13, SDO(MISO) is not connected
+
+Some displays do not have a CS pin. These should work fine (only connect the other pints).
+
+You may have to decrease SPI speed. The default 40 MHz might be too high. The data sheet of ILI9341 states a clock cycle of 100ns, i.e. a maximum clock frequency of 10 MHz.  In practice, using 20 MHz usually is no problem.
 
 VDD and LED is wired to 3.3V; for boards supporting 5V and 3.3V operation, the jumper for disabling the voltage regulator on the display needs to be set.
