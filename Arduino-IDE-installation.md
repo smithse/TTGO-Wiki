@@ -27,7 +27,8 @@ Install "esp32 by Espressif Systems"
 Get the zip file of the latest release from 
 https://github.com/me-no-dev/arduino-esp32fs-plugin/releases/
 
-Unzip the content to the tools folder of your Arduino IDE (~/Documents/Arduino/tools on MacOS,
+Unzip the content to the tools folder of your Arduino IDE (~/Documents/Arduino/tools on MacOS
+– if this folder does not exist, you have to create it, see the README on the plugin git main page; 
 similar on other OS) and restart IDE
 
 # Install all required components
