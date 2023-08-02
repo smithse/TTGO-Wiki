@@ -7,7 +7,7 @@ Wenn Sie den Access Point Mode in Kombination mit Android-Handys verwenden, kön
 - Wenn Sie auf einem Android-Handy mobile Daten aktiviert haben und sich mit dem TTGO (im Access Point mode) verbinden, versucht Ihr Telefon "intelligent" zu sein. Es erkennt, dass über den Access Point keine Internetverbindung besteht, und leitet sehr wahrscheinlich den Datenverkehr über mobile Daten anstelle von WiFi weiter. In diesem Fall können Sie NICHT auf das TTGO zugreifen (unter Verwendung der IP, die auf dem TTGO angezeigt wird, oder der MDSN-Suche oder der rdzwx-go-App)
 - Erste Lösung für dieses Problem: Deaktivierung von mobilen Daten auf dem Handy. Dann wird der gesamte Netzwerkverkehr über die WiFi-Schnittstelle geleitet. Dann kann man auf das TTGO am Handy zugreifen (unter Verwendung der Standard-IP: http://192.168.4.1/ oder der Android-App rdzwx-go).
 - Eine bessere Lösung besteht darin, das Handy als Hotspot zu verwenden und das TTGO mit diesem Zugangspunkt zu verbinden. Verwende die vorherigen Schritte, um auf die TTGO-Konfiguration zuzugreifen, lege einen Hotspot-Namen/-Passwort fest, konfiguriere dann das Handy, um den Hotspot zu aktivieren, und starte das TTGO neu (es wird sich mit dem Hotspot verbinden). 
-- Das TTGO hat jetzt eine andere IP-Adresse (auf dem Display angezeigt). Verwende http://<neue IP>/.
+- Das TTGO hat jetzt eine andere IP-Adresse (auf dem Display angezeigt). Verwende `http://<neue IP>/`.
 - http://rdzsonde.local/ wird immer funktionieren, anstatt eine IP-Adresse zu verwenden (wenn Ihr System/Browser MDNS-Suche unterstützt).
 
 Zusätzliche Hinweise:
