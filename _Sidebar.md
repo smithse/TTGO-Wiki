@@ -21,4 +21,5 @@
 * [[Other features]]
 * [[Advanced display configuration]]
 * [[Display explanations]]
+* [[WiFi connection]]
 * [[NFAQ (Not Frequently Asked Questions)]]
