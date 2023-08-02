@@ -14,4 +14,5 @@
 * [[Weitere Features]]
 * [[Experten‐Display‐Konfiguration]]
 * [[Displayerläuterungen]]
+* [[WiFi‐Verbindung]]
 * [[NFAQ (Not Frequently Asked Questions)]]
