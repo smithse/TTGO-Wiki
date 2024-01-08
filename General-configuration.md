@@ -8,6 +8,8 @@
 - 3: Wifi station/AP autoselect. On startup, shows result of network scan on display and tries to connect to the first available network in network.txt. If no network in network.txt is available at startup time, board starts in AP mode.
 - 4: Wifi station mode without scanning.  Connects to first configured network only. No scanning, so faster connect and support for hidden SSID. [added starting devel20240107].
 
+In Wifi mode 1 and 4, you can press any button during the initial WiFi scan/connection at startup to switch to AP mode.
+
 Ephemeris data for RS92 decoding is downloaded only in station mode, only if an RS92 sonde is active in the configuration on startup, and only if WiFi connection succeeds during startup. (no download if RS92 is configured later, or if connection is established later - you need to reboot in this case)
 
 ## Network mDNS name
