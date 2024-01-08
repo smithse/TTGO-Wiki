@@ -1,11 +1,14 @@
 # General configuration
 (In the "**Config**" tab of the web interface)
 
-## Wifi mode (0/1/2/3) (``wifi``)
+## Wifi mode (0/1/2/3/3) (``wifi``)
 - 0: Wifi disabled
 - 1: Wifi station mode. Connects to AP in background and dynamically obtains an IP address (connection ok: IP address shown in display). Connection is made to a network configured in the WiFi tab/network.txt with best RSSI value. Automatically re-connnects in case of connection failure.
 - 2: Wifi AP mode. Creates an access point (AP symbol + IP address 192.168.4.1. shown in display). Clients (PC or phone) gets an IP via DHCP
-- 3: Wifi station/AP autoselect. On startup, shows result of network scan on display and tries to connect to the first available network in network.txt. Does not reconnect in case an established connection later fails. If no network in network.txt is available at startup time, board starts in AP mode. Decoding RS92 is possible only in Wifi mode 3, as ephemeris data is downloaded on startup only in this mode (if an RS92 sonde is active in the configuration on startup).
+- 3: Wifi station/AP autoselect. On startup, shows result of network scan on display and tries to connect to the first available network in network.txt. If no network in network.txt is available at startup time, board starts in AP mode.
+- 4: Wifi station mode without scanning.  Connects to first configured network only. No scanning, so faster connect and support for hidden SSID. [added starting devel20240107].
+
+Ephemeris data for RS92 decoding is downloaded only in station mode, only if an RS92 sonde is active in the configuration on startup, and only if WiFi connection succeeds during startup. (no download if RS92 is configured later, or if connection is established later - you need to reboot in this case)
 
 ## Network mDNS name
 Offers name-to-IP-address lookup, so you can use http://rdzsonde.local/ (assuming rdzsonde is the configured mDNS name) instead of http://&lt;ip address&gt;/ for accessing the TTGO web interface. Works only if the TTGO and your device is on the same local subnet and if your devices/browser supports mDNS discovery.
