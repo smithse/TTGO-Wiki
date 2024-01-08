@@ -1,7 +1,7 @@
 # General configuration
 (In the "**Config**" tab of the web interface)
 
-## Wifi mode (0/1/2/3/3) (``wifi``)
+## Wifi mode (0/1/2/3/4) (``wifi``)
 - 0: Wifi disabled
 - 1: Wifi station mode. Connects to AP in background and dynamically obtains an IP address (connection ok: IP address shown in display). Connection is made to a network configured in the WiFi tab/network.txt with best RSSI value. Automatically re-connnects in case of connection failure.
 - 2: Wifi AP mode. Creates an access point (AP symbol + IP address 192.168.4.1. shown in display). Clients (PC or phone) gets an IP via DHCP
