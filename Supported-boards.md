@@ -1,3 +1,12 @@
+**Update**
+Many new boards have come into the market, so some comments on what is supported and what is not
+- You need the 433 MHz version of any board.
+- You need a board with SX1278 receiver chip. The SX1262 chip is NOT supported. (If the label that is on the receiver model does not say SX1262, then it is usually the right one)
+- There is support for boards with a simple charger chip, with the AXP192, and rudimentary (good enough) support for the AXP2101.
+- You need a traditional ESP32 chip, the S3 is not directly supported (unless you compile the code yourself and do some minor changes)
+
+
+
 **Important note (valid for all devices): _You need the 433 MHz version_ (the 433 MHz receiver is used as 403 MHz receiver). The 868/915 MHz version will not work!**
 
 # Recommended boards:
