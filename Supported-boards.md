@@ -1,9 +1,16 @@
 **Update**
-Many new boards have come into the market, so some comments on what is supported and what is not
+
+Many new boards have come into the market, so some comments on what is supported and what is not:
 - You need the 433 MHz version of any board.
-- You need a board with SX1278 receiver chip. The SX1262 chip is NOT supported. (If the label that is on the receiver model does not say SX1262, then it is usually the right one)
+- You need a board with SX1278 receiver chip. The SX1262/SX1268 chips are NOT supported. (If the label that is on the receiver model does not say SX1262 or SX1268, then it is usually the right one)
 - There is support for boards with a simple charger chip, with the AXP192, and rudimentary (good enough) support for the AXP2101.
 - You need a traditional ESP32 chip, the S3 is not directly supported (unless you compile the code yourself and do some minor changes)
+
+Suggestions on some (probably still available) boards:
+- Lilygo LoRa32 V2.1_1.6 (see below) - make sure to get the 433 MHz version (The similar T3S3 v1.0 is not supported, but seems like there is no 433 version of that board anyway)
+- Lilygo T-Beam v1.1 (with AXP192) and v1.2 (with AXP2101): There are two 433 MHz variants, one with SX1278 and one with SX1268. Only the first variant will work.
+- Heltec Lora32 v2 is supported (if you still are able to get it), the newer Heltec Lora32 v3 has a SX1262 chip and is not supported!
+- M5Stack Core2 board with Ra-02 based Lora board (M005)
 
 
 
