@@ -56,13 +56,17 @@ I got my board as "Wemos® TTGO LORA SX1278 ESP322 433 MHz" from Banggood in ear
 
 The board has a second button (in addition to reset button) that can be used to control the software, and an on-board 0.96" OLED display.
 
-The board has a tiny I-PEX connector on board for the antenna (so you need an adapter cable for connecting an antenna with a more common SMA connector)
+The board has a tiny I-PEX connector on board for the antenna (so you need an adapter cable for connecting an antenna with a more common SMA connector).
+
+Will not be supported in binary images after mid 2024. For newer versions you need to build your own firmware, configured for a 26 MHz ESP crystal.
 
 ## HELTEC TTGO LoRa v1
 
 In terms of board layout (pin connections) from a software point of view very similar to TTGO LoRa v1.0.
 
 No information on reception sensitivity compared to other boards.
+
+Will not be supported in binary images after mid 2024. For newer versions you need to build your own firmware, configured for a 26 MHz ESP crystal.
 
 ## HELTEC TTGO LoRa v2
 
