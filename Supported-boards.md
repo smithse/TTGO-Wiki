@@ -47,7 +47,8 @@ Note that some pins are used differently than on the older T-Beam v0.7. Instruct
 
 # Additional boards
 
-The code has also been tested with the following boards:
+Older versions of the code has also been tested with the following boards. **Please note that boards with 26 MHz crystal will not work fully (WiFi issues, and Serial port baud rate is wrong) with newer (>mid 2024) firmware images.  (TTGO LoRa v1.0/Heltec v1/Heltec v2)**
+For newer software versions you need to build your own firmware, configured for a 26 MHz ESP crystal.
 
 ## TTGO LoRa v1.0
 
@@ -58,7 +59,7 @@ The board has a second button (in addition to reset button) that can be used to 
 
 The board has a tiny I-PEX connector on board for the antenna (so you need an adapter cable for connecting an antenna with a more common SMA connector).
 
-Will not be supported in binary images after mid 2024. For newer versions you need to build your own firmware, configured for a 26 MHz ESP crystal.
+
 
 ## HELTEC TTGO LoRa v1
 
