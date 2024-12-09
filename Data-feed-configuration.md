@@ -28,7 +28,7 @@ _(or RF-Port 2/3/4; the port number at the end must match the value configured i
 ## APRS parameters (for example, for radiosondy.info)
 
 Connects to an aprs server, using call as login
-* Note: If you use multiple receivers, each one MUST use a different SSID (such as N0CALL-1, N0CALL-2, N0CALL-3, etc.)
+* Note: If you use multiple receivers, each one MUST use a different SSID (such as N0CALL-1, N0CALL-2, N0CALL-3, etc.) for its "call"
 * Passcode: APRS login passcode
 * APRS TCP active: 1=enabled, 0=disabled
 * APRS TCP host: hostname or IP address, such as radiosondy.info
