@@ -28,10 +28,12 @@ _(or RF-Port 2/3/4; the port number at the end must match the value configured i
 ## APRS parameters (for example, for radiosondy.info)
 
 Connects to an aprs server, using call as login
+* Note: If you use multiple receivers, each one MUST use a different SSID (such as N0CALL-1, N0CALL-2, N0CALL-3, etc.)
 * Passcode: APRS login passcode
 * APRS TCP active: 1=enabled, 0=disabled
 * APRS TCP host: hostname or IP address, such as radiosondy.info
-* APRS TCP port: port number, such as 14580 (aprs standard) or 14590 (radiosondy.info without forward to aprs.fi servers)
+* APRS TCP port: port number, such as 14580 (aprs standard) or 14590 (radiosondy.info without forward to aprs.fi servers – this forwarding is (as of now) completely disabled, so there should be no difference between the two ports)
+* Note: Do not put the identical servers as host and host2 in the config (not even with different ports)
 * Rate limit: number of seconds between aprs position reports, must be >= 5 for public aprs servers
 * APRS object call: if set, object reports use a different source callsigns (APRS login and tracker location beacons are always sent with the main callsign specified above). For wettersonde.net, this is the "Objectcall" (and "Call" is the "Gatecall"). For most other servers, this can be left empty.
 * APRS tracker symbol: must be 4 characters. The first two are used for "fixed" mode (Table ID, Symbol Code), the second two are used for "chase" mode. See https://www.aprsdirect.com/symbol/list
