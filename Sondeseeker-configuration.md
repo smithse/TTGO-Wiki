@@ -6,7 +6,7 @@ By default, the UDP packets are sent to a multicast aaddress on the port specifi
 
 Note: If you have multiple TTGO devices, you must select different ports to prevent flooding.
 
-## SondeSeeker active (cm.active)
+## SondeSeeker active
 0=disabled, 1=active
 
 ## SondeSeeker host
