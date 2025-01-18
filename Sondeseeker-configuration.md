@@ -2,7 +2,7 @@
 
 SondeSeeker is an iOS application in development (Jan 2025) by Sean, VK6DI.
 This app will ingest UDP packets, output by rdz_ttgo_sonde.
-By default, the UDP packets are sent to a multicast aaddress on the port specified below.
+By default, the UDP packets are sent to a multicast address on the port specified below.
 
 Note: If you have multiple TTGO devices, you must select different ports to prevent flooding.
 
